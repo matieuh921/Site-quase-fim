@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem em Tela Cheia</title>
+    <style>
+        body, html {
+            margin: 0; /* Remove margens padrão */
+            padding: 0; /* Remove preenchimento padrão */
+            width: 100%; /* Garante que o corpo e o HTML ocupem 100% da largura */
+            height: 100%; /* Garante que o corpo e o HTML ocupem 100% da altura */
+            overflow: hidden; /* Impede rolagem, se necessário */
+        }
+
+        .naonao {
+            width: 100%; /* Faz a imagem ocupar toda a largura */
+            height: 100%; /* Faz a imagem ocupar toda a altura */
+            object-fit: cover; /* Mantém a proporção e cobre toda a área */
+        }
+    </style>
+</head>
+<body>
+    <img src="imagens-2/6.png" class="naonao">
+</body>
+</html>

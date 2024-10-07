@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F0EAD6; 
+    height: 100vh; 
+    overflow: hidden; 
+}
+
+.container {
+    position: relative; 
+    width: 100vw; 
+    height: 100vh; 
+    overflow: hidden; 
+}
+
+.pq {
+    width: 60%;
+    transition: transform 0.3s; 
+    z-index: 1; 
+    position: absolute; 
+    left: -120px;
+    top: 50%; 
+    transform: translateY(-50%); 
+}
+
+.pq:hover {
+    transform: translateY(-50%) scale(1.1); 
+}
+
+.image-right {
+    width: 120%; 
+    position: absolute; 
+    left: -300px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 0; 
+}
+
+.image-right:hover {
+    filter: contrast(130%);
+}
+ 
+.image1, .image2, .image3 {
+    position: absolute; 
+    width: 80%; 
+    height: auto; 
+}
+.image1 {
+    width: 1000px; 
+    top: -23%; 
+    left: 5%; 
+}
+.image2 {
+    width: 1200px;
+    top: 40%; 
+    left: -35%; 
+}
+
+.image3 {
+    width: 1200px; 
+    top: 40%; 
+    left: -5%; 
+}
+.nova-imagem {
+    width: 140px; 
+    height: auto; 
+    display: block; 
+    margin: 20px auto; 
+    position: relative; 
+    top: 0;
+    left: -570px; 
+    opacity: 0.80;
+}
+
+.image-button {
+    position: absolute;
+    top: 20px; 
+    right: 20px;
+    border: none; 
+    cursor: pointer; 
+    background: none; 
+}
+.button-image {
+    width: 50px; 
+    height: auto;
+}
+.p{
+    position: absolute;
+    top: 20px; 
+    right: 20px;
+    border: none; 
+    cursor: pointer; 
+    background: none; 
+    color: black;
+
+}

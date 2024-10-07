@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página com Imagens</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #F0EAD6; 
+            height: 100vh; 
+            overflow: hidden; 
+            position: relative; 
+        }
+
+        button {
+            position: absolute; 
+            top: 20px; 
+            right: 20px; 
+            z-index: 10; 
+            padding: 10px 20px; 
+            font-size: 16px; 
+            background-color: #4CAF50; 
+            color: white; 
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer; 
+            transition: background-color 0.3s; 
+        }
+
+        button:hover {
+            background-color: #45a049; 
+        }
+
+        img {
+            width: 100%;
+            position: absolute;
+            transform: translateY(-50%);
+            opacity: 0; /* Começa invisível */
+            animation: fadeIn 0.5s forwards; /* Animação de desvanecimento */
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1; /* Termina visível */
+            }
+        }
+
+        .img1 { left: -620px; top: 0%; width: 100%; animation-delay: 0s; }
+        .img2 { left: 15px; top: 305px; animation-delay: 0.1s; }
+        .img3 { left: -1%; top: 55%; animation-delay: 0.2s; }
+        .img4 { left: -580px; top: 85%; width: 90%; animation-delay: 0.3s; }
+        .img5 { left: 790px; top: 85%; width: 75%; animation-delay: 0.4s; }
+        .img6 { width: 80%; left: -220px; top: 40%; animation-delay: 0.5s; }
+        .img7 { left: 370px; top: 50%; animation-delay: 0.6s; }
+        .img8 { left: 270px; top: 10%; width: 20%; animation-delay: 0.7s; }
+        .img9 { left: 45%; top: 25%; width: 90%; animation-delay: 0.8s; }
+        .img10 { left: 55%; top: 25%; width: 25%; animation-delay: 0.9s; }
+        .img11 { left: 15%; top: 70%; width: 100%; animation-delay: 1.0s; }
+        .img12 { left: 30%; top: 25%; width: 90%; animation-delay: 1.1s; }
+        .img13 { left: 65%; top: 72%; width: 30%; animation-delay: 1.2s; }
+    </style>
+</head>
+<body>
+    <button onclick="location.href='1-PagPrincipal.html'">Ir para a página principal</button>
+    <img class="img1" src="./imagens-2/me.png" alt="Descrição da imagem 1">
+    <img class="img2" src="./imagens-2/pH13.png" alt="Descrição da imagem 2">
+    <img class="img3" src="./imagens-2/cores13.png" alt="Descrição da imagem 3">
+    <img class="img4" src="./imagens-2/ficando.png" alt="Descrição da imagem 4">
+    <img class="img5" src="./imagens-2/estou.png" alt="Descrição da imagem 5">
+    <img class="img6" src="./imagens-2/texto13.png" alt="Descrição da imagem 6"> 
+    <img class="img9" src="./imagens-2/muito.png" alt="Descrição da imagem 7">
+    <img class="img11" src="./imagens-2/louco.png" alt="Descrição da imagem 8"> 
+    <img class="img12" src="./imagens-2/cacto.png" alt="Descrição da imagem 9"> 
+</body>
+</html>
